@@ -19,7 +19,7 @@ jobs:
                 python-version: "3.10"
    
             - name: Install Depencies
-              run: pip install -r requirement.txt
+              run: pip install -r requirements.txt
             
             - name: run test cases
               run: pytest --cov=calc --cov-report=term
